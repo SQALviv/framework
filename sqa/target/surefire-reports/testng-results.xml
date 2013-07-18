@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="14625" started-at="2013-07-18T15:02:02Z" finished-at="2013-07-18T15:02:17Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14625" started-at="2013-07-18T15:02:02Z" finished-at="2013-07-18T15:02:17Z">
+      <class name="com.sqa.tests.FixedMenuTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="init" is-config="true" duration-ms="8963" started-at="2013-07-18T15:02:02Z" finished-at="2013-07-18T15:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="navigateToBaseUrl" is-config="true" duration-ms="1335" started-at="2013-07-18T15:02:11Z" finished-at="2013-07-18T15:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="checkLogo()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="checkLogo" duration-ms="937" started-at="2013-07-18T15:02:12Z" finished-at="2013-07-18T15:02:13Z">
+        </test-method>
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="navigateToBaseUrl" is-config="true" duration-ms="843" started-at="2013-07-18T15:02:13Z" finished-at="2013-07-18T15:02:14Z">
+        </test-method>
+        <test-method status="PASS" signature="checkSeachButton()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="checkSeachButton" duration-ms="925" started-at="2013-07-18T15:02:14Z" finished-at="2013-07-18T15:02:15Z">
+        </test-method>
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="navigateToBaseUrl" is-config="true" duration-ms="710" started-at="2013-07-18T15:02:15Z" finished-at="2013-07-18T15:02:16Z">
+        </test-method>
+        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="checkUrl" duration-ms="586" started-at="2013-07-18T15:02:16Z" finished-at="2013-07-18T15:02:16Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.tests.FixedMenuTest@16b8f8eb]" name="tearDown" is-config="true" duration-ms="308" started-at="2013-07-18T15:02:16Z" finished-at="2013-07-18T15:02:17Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
