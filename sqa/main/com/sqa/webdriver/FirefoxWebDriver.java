@@ -1,9 +1,10 @@
-package java.com.sqa.webdriver;
+package com.sqa.webdriver;
 
 import org.openqa.selenium.*;
 
-import java.com.sqa.concepts.Repository;
-import java.com.sqa.implementation.RepositoryImplementation;
+import com.sqa.concepts.Repository;
+import com.sqa.implementation.RepositoryImplementation;
+
 
 public class FirefoxWebDriver {
 	

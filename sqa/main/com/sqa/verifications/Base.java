@@ -1,4 +1,4 @@
-package java.com.sqa.verifications;
+package com.sqa.verifications;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,7 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-import java.com.sqa.webdriver.FirefoxWebDriver;
+import com.sqa.webdriver.FirefoxWebDriver;
+
 
 public class Base extends FirefoxWebDriver {
 	

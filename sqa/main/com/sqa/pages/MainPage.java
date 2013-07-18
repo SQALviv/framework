@@ -1,9 +1,10 @@
-package java.com.sqa.pages;
+package com.sqa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.com.sqa.webdriver.FirefoxWebDriver;
+import com.sqa.webdriver.FirefoxWebDriver;
+
 
 public class MainPage  extends FirefoxWebDriver{
 	
