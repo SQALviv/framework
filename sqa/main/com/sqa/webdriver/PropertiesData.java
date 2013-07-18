@@ -1,4 +1,4 @@
-package java.com.sqa.webdriver;
+package com.sqa.webdriver;
 
 public class PropertiesData {
 

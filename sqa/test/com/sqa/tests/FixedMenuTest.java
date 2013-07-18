@@ -1,9 +1,10 @@
-package java.com.sqa.tests;
+package com.sqa.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.com.sqa.verifications.Base;
+import com.sqa.verifications.Base;
+
 
 public class FixedMenuTest extends Base{
 

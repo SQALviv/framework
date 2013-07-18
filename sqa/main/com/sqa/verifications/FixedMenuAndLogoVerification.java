@@ -1,4 +1,4 @@
-package java.com.sqa.verifications;
+package com.sqa.verifications;
 
 public class FixedMenuAndLogoVerification extends Base {
 

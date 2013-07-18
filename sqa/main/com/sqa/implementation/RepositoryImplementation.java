@@ -1,9 +1,10 @@
-package java.com.sqa.implementation;
+package com.sqa.implementation;
 
-import java.com.sqa.concepts.Repository;
-import java.com.sqa.pages.MainPage;
-import java.com.sqa.verifications.FixedMenuAndLogoVerification;
-import java.com.sqa.webdriver.PropertiesData;
+
+import com.sqa.concepts.Repository;
+import com.sqa.pages.MainPage;
+import com.sqa.verifications.FixedMenuAndLogoVerification;
+import com.sqa.webdriver.PropertiesData;
 
 public class RepositoryImplementation implements Repository {
 
