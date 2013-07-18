@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="15.301" errors="0" skipped="0" tests="3" name="TestSuite">
+<testsuite failures="0" time="15.369" errors="0" skipped="0" tests="3" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Developing/Automation Testing/SQA/framework/framework/sqa"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefirebooter864969114482300338.jar"/>
+    <property name="surefire.real.class.path" value="/Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefirebooter4362096696037878860.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/2w/3j66lc2j3p3drtp0x67bwms00000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefirebooter864969114482300338.jar /Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefire3215957410586899704tmp /Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefire4992901590403349592tmp"/>
+    <property name="sun.java.command" value="/Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefirebooter4362096696037878860.jar /Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefire5770220387404992086tmp /Developing/Automation Testing/SQA/framework/framework/sqa/target/surefire/surefire8791016956894079515tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.936" classname="com.sqa.tests.FixedMenuTest" name="checkLogo"/>
-  <testcase time="0.925" classname="com.sqa.tests.FixedMenuTest" name="checkSeachButton"/>
-  <testcase time="0.586" classname="com.sqa.tests.FixedMenuTest" name="checkUrl"/>
+  <testcase time="0.938" classname="com.sqa.tests.FixedMenuTest" name="checkLogo"/>
+  <testcase time="0.871" classname="com.sqa.tests.FixedMenuTest" name="checkSeachButton"/>
+  <testcase time="0.568" classname="com.sqa.tests.FixedMenuTest" name="checkUrl"/>
 </testsuite>
