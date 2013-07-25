@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="14806" started-at="2013-07-18T15:03:14Z" finished-at="2013-07-18T15:03:29Z">
+  <suite name="com.sqa.tests.FixedMenuTest" duration-ms="8919" started-at="2013-07-18T16:45:46Z" finished-at="2013-07-18T16:45:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="14806" started-at="2013-07-18T15:03:14Z" finished-at="2013-07-18T15:03:29Z">
+    <test name="Command line test" duration-ms="8919" started-at="2013-07-18T16:45:46Z" finished-at="2013-07-18T16:45:55Z">
       <class name="com.sqa.tests.FixedMenuTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="init" is-config="true" duration-ms="9277" started-at="2013-07-18T15:03:14Z" finished-at="2013-07-18T15:03:24Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="init" is-config="true" duration-ms="5637" started-at="2013-07-18T16:45:46Z" finished-at="2013-07-18T16:45:52Z">
         </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="navigateToBaseUrl" is-config="true" duration-ms="1217" started-at="2013-07-18T15:03:24Z" finished-at="2013-07-18T15:03:25Z">
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="navigateToBaseUrl" is-config="true" duration-ms="950" started-at="2013-07-18T16:45:52Z" finished-at="2013-07-18T16:45:53Z">
         </test-method>
-        <test-method status="PASS" signature="checkLogo()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="checkLogo" duration-ms="940" started-at="2013-07-18T15:03:25Z" finished-at="2013-07-18T15:03:26Z">
+        <test-method status="PASS" signature="checkLogo()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="checkLogo" duration-ms="580" started-at="2013-07-18T16:45:53Z" finished-at="2013-07-18T16:45:53Z">
         </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="navigateToBaseUrl" is-config="true" duration-ms="922" started-at="2013-07-18T15:03:26Z" finished-at="2013-07-18T15:03:27Z">
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="navigateToBaseUrl" is-config="true" duration-ms="138" started-at="2013-07-18T16:45:53Z" finished-at="2013-07-18T16:45:54Z">
         </test-method>
-        <test-method status="PASS" signature="checkSeachButton()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="checkSeachButton" duration-ms="871" started-at="2013-07-18T15:03:27Z" finished-at="2013-07-18T15:03:27Z">
+        <test-method status="PASS" signature="checkSeachButton()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="checkSeachButton" duration-ms="832" started-at="2013-07-18T16:45:54Z" finished-at="2013-07-18T16:45:54Z">
         </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="navigateToBaseUrl" is-config="true" duration-ms="656" started-at="2013-07-18T15:03:28Z" finished-at="2013-07-18T15:03:28Z">
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="navigateToBaseUrl" is-config="true" duration-ms="582" started-at="2013-07-18T16:45:54Z" finished-at="2013-07-18T16:45:55Z">
         </test-method>
-        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="checkUrl" duration-ms="568" started-at="2013-07-18T15:03:28Z" finished-at="2013-07-18T15:03:29Z">
+        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="checkUrl" duration-ms="21" started-at="2013-07-18T16:45:55Z" finished-at="2013-07-18T16:45:55Z">
         </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.tests.FixedMenuTest@49de17f4]" name="tearDown" is-config="true" duration-ms="324" started-at="2013-07-18T15:03:29Z" finished-at="2013-07-18T15:03:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.tests.FixedMenuTest@f01a1e]" name="tearDown" is-config="true" duration-ms="171" started-at="2013-07-18T16:45:55Z" finished-at="2013-07-18T16:45:55Z">
         </test-method>
       </class>
     </test>
