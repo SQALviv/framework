@@ -23,5 +23,9 @@ public class MainPage  extends FirefoxWebDriver{
 	public WebElement getSeachButton(){
 		return driver.findElement(By.xpath("//*[@id='searchButton']"));
 	}
+	
+	public WebElement getSeachField(){
+		return driver.findElement(By.xpath("//*[@id='brand']"));
+	}
 
 }
