@@ -2,10 +2,12 @@ package com.sqa.implementation;
 
 
 import com.sqa.concepts.Repository;
+import com.sqa.logs.Logger;
 import com.sqa.pages.BrandPage;
 import com.sqa.pages.MainPage;
 import com.sqa.pages.ServicePage;
 import com.sqa.verifications.FixedMenuAndLogoVerification;
+import com.sqa.verifications.IconMovingVerification;
 import com.sqa.verifications.SearchByBrandNameVerification;
 import com.sqa.webdriver.PropertiesData;
 
@@ -33,6 +35,15 @@ public class RepositoryImplementation implements Repository {
 
 	public BrandPage getBrandPage() {
 		return new BrandPage();
+	}
+
+	public IconMovingVerification getIconMovingVerification() {
+		return new IconMovingVerification();
+	}
+
+	@Override
+	public Logger getLogger() {
+		return new Logger();
 	}
 
 	
