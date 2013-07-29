@@ -10,7 +10,7 @@ public class SearchTest extends Base{
 
 	@Test (groups = "search")
 	public void checkSearchingWorks(){
-		driver.get(repository.getMainPage().getBaseUrl() + repository.getServicePage().getServiceUrl());
+		driver.get(repository.getPropertiesData().getData("url") + repository.getPropertiesData().getData("services_url"));
 		String error = repository.getSearchByBrandNameVerification().verifyThatSearchByBrandNameWorks();
 		Assert.assertTrue(error.length()==0,error);
 		

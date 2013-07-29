@@ -8,10 +8,6 @@ import com.sqa.webdriver.FirefoxWebDriver;
 
 public class MainPage  extends FirefoxWebDriver{
 	
-	public String getBaseUrl(){
-		return "http://test-2012.zayco.com.ua";
-	}
-	
 	public WebElement getHeader(){
 		return driver.findElement(By.xpath("//*[@id='header']"));
 	}

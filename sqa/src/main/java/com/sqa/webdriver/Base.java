@@ -1,4 +1,4 @@
-package com.sqa.verifications;
+package com.sqa.webdriver;
 
 import java.util.concurrent.TimeUnit;
 

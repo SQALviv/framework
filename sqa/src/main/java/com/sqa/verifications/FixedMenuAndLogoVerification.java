@@ -12,7 +12,7 @@ public class FixedMenuAndLogoVerification extends Base {
 	public String verifyNavigationFromLogo(){
 		String outResults="";
 		repository.getMainPage().getHeader().click();
-		if(!driver.getCurrentUrl().contains(repository.getMainPage().getBaseUrl()))
+		if(!driver.getCurrentUrl().contains(repository.getPropertiesData().getData("url")))
 			outResults+="Navigation is failed \n";
 		return outResults;
 	}
