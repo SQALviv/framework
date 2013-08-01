@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90356" started-at="2013-07-25T16:42:12Z" finished-at="2013-07-25T16:43:43Z">
+    <groups>
+      <group name="search">
+        <method signature="SearchTest.checkSearchingWorks()[pri:0, instance:com.sqa.tests.SearchTest@1f950198]" name="checkSearchingWorks" class="com.sqa.tests.SearchTest"/>
+      </group> <!-- search -->
+    </groups>
+    <test name="Default test" duration-ms="90356" started-at="2013-07-25T16:42:12Z" finished-at="2013-07-25T16:43:43Z">
+      <class name="com.sqa.tests.SearchTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sqa.tests.SearchTest@1f950198]" name="init" is-config="true" duration-ms="42500" started-at="2013-07-25T18:42:12Z" finished-at="2013-07-25T18:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.sqa.tests.SearchTest@1f950198]" name="navigateToBaseUrl" is-config="true" duration-ms="35323" started-at="2013-07-25T18:42:55Z" finished-at="2013-07-25T18:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBaseUrl -->
+        <test-method status="PASS" signature="checkSearchingWorks()[pri:0, instance:com.sqa.tests.SearchTest@1f950198]" name="checkSearchingWorks" duration-ms="12422" started-at="2013-07-25T18:43:30Z" finished-at="2013-07-25T18:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchingWorks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.tests.SearchTest@1f950198]" name="tearDown" is-config="true" duration-ms="98" started-at="2013-07-25T18:43:43Z" finished-at="2013-07-25T18:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqa.tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
