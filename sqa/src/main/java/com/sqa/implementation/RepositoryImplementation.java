@@ -41,7 +41,6 @@ public class RepositoryImplementation implements Repository {
 		return new IconMovingVerification();
 	}
 
-	@Override
 	public Logger getLogger() {
 		return new Logger();
 	}

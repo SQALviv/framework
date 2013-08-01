@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.sqa.tests.IconMovingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToBaseUrl"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="com.sqa.tests.FixedMenuTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToBaseUrl"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="com.sqa.tests.SearchTest">
+        <methods>
+          <include name="navigateToBaseUrl"/>
+          <include name="checkSearchingWorks"/>
+          <include name="init"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -17,10 +17,12 @@ public class IconMovingVerification extends Base {
 
 		Point firstPosition = brandNameFirst.getLocation();
 		
-		Actions builder = new Actions(driver);
 		repository.getLogger().log(1, "Move 1-st icon to last position");
+		
+		Actions builder = new Actions(driver);
 		builder.dragAndDrop(brandNameFirst, brandNameSecond).build().perform();
 		//builder.clickAndHold(brandNameFirst).moveToElement(brandNameSecond).release(brandNameFirst).build().perform();
+		
 		
 		Point secondPosition = brandNameSecond.getLocation();
 		
